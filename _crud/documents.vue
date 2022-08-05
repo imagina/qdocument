@@ -60,6 +60,14 @@ export default {
               },
               icon: "fas fa-file-download",
               action: (item) => this.$helper.downloadFromURL(item.url),
+            },
+            {
+              label: this.$tr('isite.cms.label.copyDisclosureLink'),
+              format: (item) => {
+                return { vIf: item.url ? true : false }
+              },
+              icon: "fas fa-copy",
+              action: (item) => this.$helper.copyToClipboard(item.publicUrl,'isite.cms.messages.copyDisclosureLink'),
             }
           ],
         },
