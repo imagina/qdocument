@@ -9,7 +9,7 @@ export default {
     page: () => import('@imagina/qcrud/_pages/admin/crudPage'),
     layout: () => import('@imagina/qsite/_layouts/master.vue'),
     title: 'idocs.cms.sidebar.adminDocuments',
-    icon: 'fas fa-folder-open',
+    icon: 'fa-light fa-folder-open',
     subHeader: {
       refresh: true,
     }
@@ -24,7 +24,7 @@ export default {
     page: () => import('@imagina/qcrud/_pages/admin/crudPage'),
     layout: () => import('@imagina/qsite/_layouts/master.vue'),
     title: 'idocs.cms.sidebar.adminCategories',
-    icon: 'fas fa-layer-group',
+    icon: 'fa-light fa-layer-group',
     subHeader: {
       refresh: true,
     }

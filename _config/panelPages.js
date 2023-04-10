@@ -9,7 +9,7 @@ export default {
     page: () => import('@imagina/qcrud/_pages/admin/crudPage'),
     layout: () => import('@imagina/qsite/_layouts/master'),
     title: 'idocs.cms.sidebar.panelDocuments',
-    icon: 'fas fa-folder-open',
+    icon: 'fa-light fa-folder-open',
     subHeader: {
       refresh: true,
     }
