@@ -59,7 +59,7 @@ export default {
                 return { vIf: item.url ? true : false }
               },
               icon: "fas fa-file-download",
-              action: (item) => this.$helper.downloadFromURL(item.url),
+              action: (item) => this.$helper.downloadFromURL(item.publicUrl),
             }
           ],
         },
