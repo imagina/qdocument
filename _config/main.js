@@ -4,5 +4,6 @@ export default {
   entityNames: {
     category: 'category',
     event: 'event',
+    document: 'document',
   },
 }

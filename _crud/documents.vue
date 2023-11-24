@@ -51,7 +51,7 @@ export default {
               name: 'actions', label: this.$tr('isite.cms.form.actions'), align: 'center'
             },
           ],
-          requestParams: {include: 'category'},
+          requestParams: {include: 'category,qrs'},
           actions: [
             {
               label: this.$tr("isite.cms.label.download"),
