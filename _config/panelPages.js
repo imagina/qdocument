@@ -5,9 +5,9 @@ export default {
     authenticated: true,
     path: '/document/documents',
     name: 'qdocument.panel.documents',
-    crud : import('@imagina/qdocument/_crud/documents'),
-    page: () => import('@imagina/qcrud/_pages/admin/crudPage'),
-    layout: () => import('@imagina/qsite/_layouts/master'),
+    crud : import('modules/qdocument/_crud/documents'),
+    page: () => import('modules/qcrud/_pages/admin/crudPage'),
+    layout: () => import('layouts/master'),
     title: 'idocs.cms.sidebar.panelDocuments',
     icon: 'fa-light fa-folder-open',
     subHeader: {
