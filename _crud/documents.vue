@@ -100,7 +100,7 @@ export default {
             type: 'crud',
             props: {
               crudType: 'select',
-              crudData: import('@imagina/qdocument/_crud/categories'),
+              crudData: import('modules/qdocument/_crud/categories'),
               crudProps: {
                 label: `${this.$tr('isite.cms.form.category')}*`,
                 rules: [
