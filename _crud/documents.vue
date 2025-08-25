@@ -151,7 +151,7 @@ export default {
             props: {
               label: `${this.$tr('isite.cms.label.file')}*`,
               zone: 'file',
-              entity: "Modules\\Idocs\\Entities\\Document",
+              entity: "Modules\\Idocs\\Models\\Document",
               entityId: null,
               disk: 'privatemedia',
               rules: [

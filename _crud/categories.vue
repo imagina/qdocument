@@ -117,7 +117,7 @@
               props : {
                 label: this.$tr('isite.cms.form.firstImage'),
                 zone: 'mainimage',
-                entity: "Modules\\Idocs\\Entities\\Category",
+                entity: "Modules\\Idocs\\Models\\Category",
                 entityId: null
               }
             }
